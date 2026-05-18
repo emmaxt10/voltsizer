@@ -750,7 +750,7 @@ function ResultsPage({ result }: { result: SizingResult | null }) {
                 <Separator />
                 {summaryCards.slice(4, 11).map((item) => <ResultTile key={item.label} label={item.label} value={item.value} />)}
                 <ResultTile label={summaryCards[11].label} value={summaryCards[11].value} strong />
-                {result.phase_balance_note && (
+                {result?.phase_balance_note && (
                   <div className="rounded-2xl border bg-cyan-50 p-4 text-sm text-cyan-800">
                     {result.phase_balance_note}
                   </div>
