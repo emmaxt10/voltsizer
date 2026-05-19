@@ -49,7 +49,7 @@ import {
   YAxis,
 } from "recharts";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://voltsizer.onrender.com";
 const AUTH_STORAGE_KEY = "voltsizer-auth-user";
 const FORM_STORAGE_KEY = "voltsizer-form";
 const RESULT_STORAGE_KEY = "voltsizer-latest-result";
